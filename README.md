@@ -31,12 +31,13 @@ Or install it yourself as:
 ## Compatibility
 
 Tested MRI Ruby Versions:
-* 2.4
 * 2.5
 * 2.6
-* edge
+* 2.7
+* 3.0
+* 3.1
 
-NOTE: pronto-bundler_audit v0.7.0 requires pronto v0.11+ and bundler-audit v0.8+. Use pronto-bundler_audit v0.6.0 if you cannot update pronto and bundler-audit at this time.
+NOTE: pronto-bundler_audit v0.8.0 requires pronto v0.11+ and bundler-audit v0.8+. Use pronto-bundler_audit v0.6.0 if you cannot update pronto and bundler-audit at this time.
 
 ## Usage
 
