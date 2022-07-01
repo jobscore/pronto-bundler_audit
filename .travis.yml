@@ -9,7 +9,6 @@ rvm:
   - 2.7
   - 3.0
   - 3.1
-  - ruby-head
 notifications:
   email: false
 before_install: gem install bundler -v 2.3.16 --no-document
