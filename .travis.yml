@@ -2,6 +2,7 @@ env:
   global:
     - CC_TEST_REPORTER_ID=d474e8b46e1c2bdae364c33263aa113e922381016a151052bff1ec8cb743da22
 sudo: false
+dist: bionic
 language: ruby
 rvm:
   - 2.5
@@ -12,7 +13,7 @@ rvm:
   - ruby-head
 notifications:
   email: false
-before_install: gem install bundler -v 2.0.2 --no-document
+before_install: gem install bundler -v 2.3.16 --no-document
 cache: bundler
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
